@@ -9,7 +9,7 @@ foreach ($_FILES["filename"]["error"] as $key => $error) {
 			if ($error == UPLOAD_ERR_OK) {
         $tmp_name = $_FILES["filename"]["tmp_name"][$key];
         $name = $_FILES["filename"]["name"][$key];
-        if(!move_uploaded_file($tmp_name, "file/$name")){			/*file/     -- location download file*/
+        if(!move_uploaded_file($tmp_name, "file/$name")){			/*file/     -- location download files*/
 		$msg = 'Файл не загружен';
 	  }else{
 		  	$msg = "Файл загружен успешно";
