@@ -1,4 +1,4 @@
-PHP-junior-developer
+PHP-uploader-file
 ======
 
-PHP-code
+PHP-code-uploader
